@@ -395,9 +395,9 @@ hero
 */
 .hero{
   height: 40vh;
-  background: url('../html-css-simply-recipes-main/recipes/main1..jpeg') center/cover no-repeat;
+/*   background: url('../html-css-simply-recipes-main/recipes/main1..jpeg') center/cover no-repeat; */
   
-   background: url('../main1..jpeg') center/cover no-repeat;
+   background: url("https://github.com/monnibhadu123/HTML-CSS-Project---HTML-CSS-Mini-Project-University---jatii8mj8cx3/blob/master/main1..jpeg?raw=true") center/cover no-repeat;
   
   /* background-size: cover;
   margin-left: auto;
@@ -433,10 +433,11 @@ hero
   }
 }
   
-/* body{
+/*  body{
   background-color: red;
-} */
-/* .hero {
+} 
+
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,8 +445,9 @@ hero
     height: 85vh;
     background-image: url("https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table-1024x683.jpg.webp");
     background-size: cover;
-} */
-/* .hero-text{
+} 
+ 
+.hero-text{
     color: #fff;
     text-align: center;
     text-transform: uppercase;
