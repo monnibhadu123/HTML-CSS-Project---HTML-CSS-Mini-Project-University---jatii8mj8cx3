@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- favicon -->
+    <!-- <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" /> -->
+    <!-- normalize -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css" /> -->
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="main1.css" />
+  </head>
+  <body>
+      <!-- nav -->
+    <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+              <!-- <h4 class="tag-name">SimplyRecipes</h4> -->
+              <a href="index.html" class="nav-logo">
+                <img src="./recipes/logo.svg" alt="simply recipes" />
+              </a>
+            
+            <button class="nav-btn btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link"> home </a>
+            <a href="about.html" class="nav-link"> about </a>
+            <a href="tags.html" class="nav-link"> tags </a>
+            <a href="recipes.html" class="nav-link"> recipes </a>
+  
+            <div class="nav-link contact-link">
+              <a href="contact.html" class="btn"> contact </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- nav-end -->
+      <!-- main -->
+      <main class="page">
+         <!-- header -->
+         <header class="hero">
+             <div class="hero-section">
+                 <div class="hero-text">
+                   <!-- <img src="./recipes/main1..jpeg"> -->
+                    <h1>Foodie Place</h1>
+                    <h4>no fluff, just Recipes</h4>
+                    <!-- <a href="#" class="btn margin_top">Read Recipe</a> -->
+                 </div>
+                </div>
+         </header>
+         <!-- header-end -->
+
+         <!-- recipe-section -->
+         <section class="recipe-section">
+           <!-- tags-section -->
+           <div class="tags-section">
+             <h4>recipes</h4>
+             <div class="tags-list">
+               <a href="tag-template.html">Beef(1)</a>
+               <a href="tag-template.html">Breakfast(2)</a>
+               <a href="tag-template.html">Carrots(3)</a>
+               <a href="tag-template.html">Food(4)</a>
+             </div>
+           </div>
+           <!-- end of tags-section -->
+
+           <!-- recipes list section -->
+           <div class="recipes-list">
+              <!-- single recipe -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="./recipes/food.img1.jpg" alt="food"
+              class="img recipe-img">
+              <h5>Pizza</h5>
+              <p>Prep : 15min | Coke : 5min</p>
+            </a>
+            <!-- single recipe end -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="./recipes/food.img2.jpg" alt="food"
+              class="img recipe-img">
+              <h5>Strawberry Dessert</h5>
+              <p>Prep : 15min | Coke : 5min</p>
+            </a>
+             <!-- single recipe -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="./recipes/food.img3.jpeg" alt="food"
+              class="img recipe-img">
+              <h5>Banana Pancakes</h5>
+              <p>Prep : 15min | Coke : 5min</p>
+            </a>
+            <!-- single recipe end -->
+            <!-- single recipe -->
+            <a href="single-recipe.html" class="recipe">
+              <img src="./recipes/food.img.jpeg" alt="food" 
+              class="img recipe-img">
+              <h5>Vegetable Soup</h5>
+              <p>Prep : 15min | Coke : 5min</p>
+            </a>
+            <!-- single recipe end -->
+           </div>
+           <!-- end 0f recipes list section -->
+
+         </section>
+
+         <!-- recipe-section-end -->
+        
+
+      </main>
+      <!-- main-end -->
+
+
+      <!-- footer -->
+      <footer class="page-footer">
+          <p>
+              &copy;<span id="date"></span>
+              <span class="foolter-logo">SimplyRecipes</span>
+              Built by <a href="https://www.johnsmilga.com/">MB</a>
+          </p>
+
+      </footer>
+      <!-- footer-end -->
+
+    <script src="javascript.js"></script>
+
+  </body>
+</html>
