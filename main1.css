@@ -396,6 +396,9 @@ hero
 .hero{
   height: 40vh;
   background: url('../html-css-simply-recipes-main/recipes/main1..jpeg') center/cover no-repeat;
+  
+   background: url('../main1..jpeg') center/cover no-repeat;
+  
   /* background-size: cover;
   margin-left: auto;
   margin-right: auto;
